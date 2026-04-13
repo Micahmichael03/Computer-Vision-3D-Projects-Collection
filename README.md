@@ -9,9 +9,9 @@ Welcome to my collection of 3D Computer Vision and Point Cloud processing projec
 ### 1. [3D Point Cloud Segmentation and Shape Recognition](3D%20Point%20Cloud%20Segmentation%20and%20Shape%20Recognition%20with%20Python/)
 A production-ready pipeline for segmenting 3D point cloud data using statistical filtering, RANSAC planar detection, and DBSCAN clustering — built with Open3D.
 
-![Segmentation 1](3D%20Point%20Cloud%20Segmentation%20and%20Shape%20Recognition%20with%20Python/ScreenCapture_2026-04-11-18-39-52.png)
+![Segmentation 1](3D%20Point%20Cloud%20Segmentation%20and%20Shape%20Recognition%20with%20Python/ScreenCapture_2026-04-11-18-41-51.png)
 <br>
-![Segmentation 2](3D%20Point%20Cloud%20Segmentation%20and%20Shape%20Recognition%20with%20Python/ScreenCapture_2026-04-11-18-41-51.png)
+![Segmentation 2](3D%20Point%20Cloud%20Segmentation%20and%20Shape%20Recognition%20with%20Python/ScreenCapture_2026-04-11-18-53-41.png)
 
 ### 2. [Monocular 3D Point Cloud Generator (2D to 3D)](3d%20models%20from%202d%20images/)
 Transform any single 2D image into a colored 3D point cloud using AI Depth Estimation (GLPN-NYU) without requiring stereo cameras or LiDAR.
