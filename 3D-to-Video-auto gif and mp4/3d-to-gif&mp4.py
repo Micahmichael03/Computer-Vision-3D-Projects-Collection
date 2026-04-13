@@ -14,9 +14,9 @@ pl.show()
 
 #%% 2. Load + visualize a 3D Point cloud
 
-cloud = pv.read(r"C:\Users\user\OneDrive\Documents\Computer Vision\3D_projects\3D-to-Video-auto gif and mp4\bun_zipper.ply")
+cloud = pv.read(r"C:\Users\user\OneDrive\Documents\Computer Vision\3D_projects\Open3D-Tutorial-main\happy_recon\happy_vrip.ply")
 # Rotate the point cloud to make it upright
-cloud.rotate_x(-90, inplace=True)
+cloud.rotate_x(80, inplace=True)
 scalars = np.linalg.norm(cloud.points - cloud.center, axis=1)
 
 pl = pv.Plotter()
