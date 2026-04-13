@@ -1,0 +1,6 @@
+Pytorch
+pillow
+matplotlib
+open3d
+transformers
+spyder
