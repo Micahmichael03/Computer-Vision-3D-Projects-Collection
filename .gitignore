@@ -1,0 +1,7 @@
+# Ignore large datasets and results folders
+datasets_results/
+
+# Ignore large project zip archives
+Open3D-Tutorial-main.zip
+3d-reconstruction-depth-anything-main.zip
+*.zip
