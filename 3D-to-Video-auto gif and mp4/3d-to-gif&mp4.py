@@ -15,6 +15,8 @@ pl.show()
 #%% 2. Load + visualize a 3D Point cloud
 
 cloud = pv.read(r"C:\Users\user\OneDrive\Documents\Computer Vision\3D_projects\3D-to-Video-auto gif and mp4\bun_zipper.ply")
+# Rotate the point cloud to make it upright
+cloud.rotate_x(-90, inplace=True)
 scalars = np.linalg.norm(cloud.points - cloud.center, axis=1)
 
 pl = pv.Plotter()
@@ -100,6 +102,8 @@ pl.close()
 
 def cloudgify(input_path):
     cloud = pv.read(input_path)
+    # Rotate the point cloud to make it upright
+    cloud.rotate_x(-90, inplace=True)
     scalars = np.linalg.norm(cloud.points - cloud.center, axis=1)
     pl = pv.Plotter(off_screen=True, image_scale=1)
     pl.add_mesh(
