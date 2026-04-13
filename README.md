@@ -23,7 +23,7 @@ Transform any single 2D image into a colored 3D point cloud using AI Depth Estim
 ### 3. [3D Point Cloud to Orbital Video (GIF & MP4)](3D-to-Video-auto%20gif%20and%20mp4/)
 Transform any `.ply` 3D point cloud into a smooth, orbital animation. This pipeline exports the results as both a looping GIF and a cinema-quality MP4.
 
-![Orbital Cloud](3D-to-Video-auto%20gif%20and%20mp4/orbit_cloud.gif)
+![Orbital Cloud](3D-to-Video-auto%20gif%20and%20mp4/orbit.gif)
 <br>
 ![Orbital Cloud1](3D-to-Video-auto%20gif%20and%20mp4/orbit_cloud1.gif)
 
